@@ -1,0 +1,311 @@
+	.index {
+		background-image: url("969516.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		display: flex;
+		flex-direction: column;
+		font-family: book antiqua;
+
+
+	}
+
+	.historypage {
+		background-image: url("historypageback.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		display: flex;
+		flex-direction: column;
+		font-family: book antiqua;
+		background-size: 100%;
+	}
+
+	.videopage {
+		background-image: url("historypageback.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		display: flex;
+		flex-direction: column;
+		font-family: book antiqua;
+		background-size: 100%;
+	}
+
+	.main {
+		flex: 1 0 auto;
+	}
+
+	.navmenu {
+    	width: 100%;
+	}
+
+	.navmenu ul {
+    	text-align: center;
+	}
+
+	.navmenu li {
+    	display: inline-block;
+    	border: 2px solid darkred;
+    	margin-right: 30px;
+	}
+
+	.navmenu a {
+		color: white;
+		padding: 20px;
+		font-weight: bold;
+		backdrop-filter: blur(20px);
+		text-decoration: none;
+		display: block;
+		width: 200px;
+	}
+
+	.navmenu a:hover {
+		background: #e20000;
+		color: white;
+	}
+
+	h1 {
+		color: white;
+		text-align: center;
+		font-size: 50px;
+		text-shadow: 5px 3px 5px darkred;
+	}
+
+	.header1 {
+		margin-top: -20px;
+		margin-bottom: -20px;
+	}
+
+	.about {
+		backdrop-filter: blur(1px);
+		color: white;
+		padding: 20px;
+		width: 500px;
+		font-size: 20px;
+		text-shadow: 5px 2px 2px black;
+		font-family: book antiqua;
+		float: left;
+		margin-top: 30px;
+	}	
+
+	#clubname {
+		font-family: book antiqua;
+	}
+
+	.imgcelebration img {
+		width: 400px;
+		height: 580px;
+		border: 2px solid #FAFA19;
+		margin-top: 30px;
+
+	}
+	.imgcelebration {
+		display: block;
+		text-align: right;
+		margin: 30px;
+	}
+
+	.social-media {
+		flex: 0 0 auto;
+		margin: 0 auto;
+		width: 500px;
+		padding: 10px 0;
+		max-height: 50px;
+		margin-top: 20px;
+	}
+
+	.social-media li {
+		 display: inline-block;
+	}
+
+	.social-media img {
+		width: 48px;
+		height: 48px;
+		margin-right: 20px;
+	}
+
+	.info, .history, .planecrush, .alexf, .glazer, .postalexf, .logo {
+		color: white;
+		display: block;
+		font-size: 20px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.logo {
+		padding-top: 50px;
+	}
+
+	.hh2 {
+		color: yellow;
+		font-size: 50px;
+		text-shadow: 1px 1px 1px darkred;
+		padding-left: 100px;
+		margin-bottom: -5px;
+	}
+
+	.oldphoto {
+		width: 580px;
+		height: 400px;
+		float: right;
+		padding-right: 100px;
+		padding-left: 20px;
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}
+
+	.clearfix {
+		clear: both;
+	}
+
+	.airplane {
+		width: 850px;
+		height: 500px;
+		float: left;
+		padding-right: 20px;
+		padding-left: 100px;
+		padding-top: 30px;
+	}
+
+	.siralex {
+		width: 500px;
+		height: 500px;
+		float: right;
+		padding-right: 100px;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+
+	.mulogo {
+		width: 200px;
+		height: 200px;
+		float: left;
+		padding-right: 20px;
+		padding-left: 100px;
+		padding-top: 30px;
+	}
+
+	#thistory {
+		width: 1000px;
+		margin-left: 100px;
+		}
+
+	#thistory th {
+			text-align: center;
+			padding: 15px 15px;
+			text-shadow: 5px 5px 5px black;
+			font-size: 25px;
+		}
+
+	#thistory td {
+			text-align: center;
+			padding: 15px 15px;
+			font-size: 20px;
+			text-shadow: 1px 1px 1px black;
+		}
+
+	#thistory table, th, td {
+			border: 1px solid grey;
+			color: white;
+		}
+
+	#tsquad {
+		width: 872px;
+		height: 700px;
+		background-image: url(field.jpg);
+		border: 0;
+	}
+
+	.clearfixsquad {
+		width: 1300px;
+		margin: auto;
+	}
+
+	.tablesquad {
+		float: left;
+	}
+
+	#tsquad td {
+			text-align: center;
+			font-size: 25px;
+			text-shadow: 2px 2px 2px darkred;
+			color: yellow;
+			width: 290px;
+			border: 0;
+		}
+
+	#tsquad img {
+		width: 100px;
+		height: auto;
+	}
+
+	.manager {
+		float: right;
+		padding-right: 10%;
+		padding-top: 70px;
+		color: yellow;
+		font-size: 25px;
+		text-shadow: 2px 2px 2px darkred;
+	}
+
+	.manager img {
+		width: 150px;
+	}
+
+	.subs {
+		text-align: left;
+		color: white;
+		text-shadow: 2px 2px 2px darkred;
+	}
+
+	#sqhead {
+		text-align: left	;
+		padding-left: 26%;
+	}
+
+	.l-Block1 {
+			grid-area: my-block1;
+		}
+	.l-Block2 {
+			grid-area: my-block2;
+		}
+	.l-Block3 {
+			grid-area: my-block3;
+		}
+	.l-Block4 {
+			grid-area: my-block4;
+		}
+	.l-Block5 {
+			grid-area: my-block5;
+		}
+	.l-Block6 {
+			grid-area: my-block6;
+		}
+	.l-Block7 {
+			grid-area: my-block7;
+		}
+	.l-Block8 {
+			grid-area: my-block8;
+		}
+	.l-Block9 {
+			grid-area: my-block9;
+		}
+	
+	.grid {
+			display: grid;
+			grid-gap: 50px;
+			grid-template-areas: 
+				"my-block1 my-block2 my-block3 "
+				"my-block4 my-block5 my-block6"
+				"my-block7 my-block8 my-block9";
+			grid-template-columns: auto;
+		}
+
+		.grid-init {
+			margin: auto;
+			padding: 10px;
+		}
+
+		.box-init {
+			background-color: darkred;
+			padding: 2px;
+			display: flex;
+		}
